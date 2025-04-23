@@ -81,7 +81,7 @@ DevLore is built with modern web technologies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/devlore.git
+git clone https://github.com/AchrafELGhazi/devlore.git
 
 # Navigate to the directory
 cd devlore
@@ -92,13 +92,7 @@ npm install
 # Start the development server
 npm run dev
 ```
-
-## 🖼️ Screenshots
-
-<div align="center">
-  <img src="public/screenshots/devlore-tracks.png" alt="Learning Tracks" width="400">
-  <img src="public/screenshots/devlore-lesson.png" alt="Lesson Example" width="400">
-</div>
+/**
 
 ## 🤝 Contributing
 
@@ -115,20 +109,3 @@ Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 ## 📝 License
 
 DevLore is open source software [licensed as MIT](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Special thanks to all contributors who have helped shape DevLore
-- Inspired by platforms like MDN Web Docs, freeCodeCamp, and The Odin Project
-- Logo and design elements created with a retro aesthetic inspired by Claude.ai
-
----
-
-<div align="center">
-  <p>Built with ❤️ by the DevLore team</p>
-  <p>
-    <a href="https://twitter.com/devloreapp">Twitter</a> •
-    <a href="https://discord.gg/devlore">Discord</a> •
-    <a href="https://github.com/yourusername/devlore">GitHub</a>
-  </p>
-</div>
