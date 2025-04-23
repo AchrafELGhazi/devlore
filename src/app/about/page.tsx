@@ -150,7 +150,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Our Story Section */}
         <section className='py-16 bg-dev-white'>
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
@@ -159,22 +158,22 @@ export default function About() {
                   Our Story
                 </h2>
                 <p className='text-dev-dark-gray mb-4'>
-                  DevLore was born from a simple observation: learning web
-                  development can be overwhelming. With countless technologies,
-                  frameworks, and constantly evolving best practices, beginners
-                  often struggle to find a clear path forward.
+                  DevLore started as a personal mission — I wanted to create the
+                  learning platform I wished I had when I was starting out. The
+                  world of web development is powerful but chaotic, with endless
+                  tutorials, buzzwords, and fragmented knowledge.
                 </p>
                 <p className='text-dev-dark-gray mb-4'>
-                  Founded in 2024, our team of passionate developers and
-                  educators came together with one goal: create a structured,
-                  comprehensive learning platform that guides developers from
-                  the basics to advanced concepts.
+                  In 2025, I brought DevLore to life with the goal of building a
+                  space where aspiring developers could learn in a focused,
+                  structured, and hands-on way. From HTML to full-stack
+                  frameworks, everything is organized with purpose.
                 </p>
                 <p className='text-dev-dark-gray mb-4'>
-                  We believe in learning by doing. That's why every concept on
-                  DevLore is accompanied by practical examples, interactive
-                  exercises, and real-world projects that reinforce your skills
-                  and build your portfolio.
+                  My belief is simple: we learn best by building. That's why
+                  DevLore is packed with real-world projects, exercises, and
+                  interactive examples — everything you need to not just
+                  understand code, but to use it with confidence.
                 </p>
               </div>
               <div className='order-1 lg:order-2'>
@@ -193,12 +192,12 @@ export default function About() {
                         <br />
                         {'  '}
                         <span className='html-tag'>{'<p>'}</span>
-                        Founded by developers, for developers.
+                        Built from passion, crafted for learners.
                         <span className='html-tag'>{'</p>'}</span>
                         <br />
                         {'  '}
                         <span className='html-tag'>{'<year>'}</span>
-                        2024
+                        2025
                         <span className='html-tag'>{'</year>'}</span>
                         <br />
                         <span className='html-tag'>{'</div>'}</span>
@@ -211,7 +210,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Our Values Section */}
         <section className='py-16 bg-dev-off-white'>
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
             <h2 className='text-3xl font-mono text-dev-brown mb-12 text-center'>
@@ -221,45 +219,44 @@ export default function About() {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
               <div className='retro-card'>
                 <h3 className='text-dev-brown font-mono text-lg mb-4'>
-                  Structured Learning
+                  Clarity Over Chaos
                 </h3>
                 <p className='text-dev-dark-gray'>
-                  We believe in clear learning paths that build upon previous
-                  knowledge, ensuring you have a solid foundation before
-                  tackling advanced concepts.
+                  DevLore is all about cutting through the noise. Every lesson
+                  is part of a bigger roadmap designed to help you learn in the
+                  right order, at the right pace.
                 </p>
               </div>
 
               <div className='retro-card'>
                 <h3 className='text-dev-brown font-mono text-lg mb-4'>
-                  Practical Application
+                  Build to Learn
                 </h3>
                 <p className='text-dev-dark-gray'>
-                  Theory is important, but practice is essential. We emphasize
-                  hands-on projects that solidify your understanding and build
-                  your portfolio.
+                  You don’t learn by watching — you learn by doing. Every
+                  concept is backed by exercises, projects, and challenges that
+                  make the knowledge stick.
                 </p>
               </div>
 
               <div className='retro-card'>
                 <h3 className='text-dev-brown font-mono text-lg mb-4'>
-                  Community Support
+                  Peer Power
                 </h3>
                 <p className='text-dev-dark-gray'>
-                  Learning is better together. We foster a supportive community
-                  where developers at all levels can connect, collaborate, and
-                  grow.
+                  DevLore isn’t just content — it’s a community. A place where
+                  learners share progress, ask questions, and lift each other
+                  up.
                 </p>
               </div>
 
               <div className='retro-card'>
                 <h3 className='text-dev-brown font-mono text-lg mb-4'>
-                  Continuous Growth
+                  Evolve Constantly
                 </h3>
                 <p className='text-dev-dark-gray'>
-                  Web development never stops evolving, and neither do we. We
-                  constantly update our content to reflect the latest trends and
-                  technologies.
+                  Web dev changes fast. DevLore adapts. We stay on the pulse of
+                  trends and tools, so your learning always stays relevant.
                 </p>
               </div>
             </div>
@@ -273,46 +270,7 @@ export default function About() {
               Meet Our Team
             </h2>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-              {/* Team Member 1 */}
-              <div className='flex flex-col items-center'>
-                <div className='w-32 h-32 bg-dev-light-gray border-2 border-dev-dark-gray mb-4 overflow-hidden'>
-                  <div className='w-full h-full flex items-center justify-center text-dev-medium-gray text-5xl'>
-                    👨‍💻
-                  </div>
-                </div>
-                <h3 className='text-dev-brown font-mono text-lg mb-1'>
-                  Alex Johnson
-                </h3>
-                <p className='text-dev-medium-gray mb-3 font-mono text-sm'>
-                  Founder & Lead Developer
-                </p>
-                <p className='text-dev-dark-gray text-center'>
-                  Full-stack developer with 10+ years of experience in web
-                  technologies and a passion for education.
-                </p>
-              </div>
-
-              {/* Team Member 2 */}
-              <div className='flex flex-col items-center'>
-                <div className='w-32 h-32 bg-dev-light-gray border-2 border-dev-dark-gray mb-4 overflow-hidden'>
-                  <div className='w-full h-full flex items-center justify-center text-dev-medium-gray text-5xl'>
-                    👩‍💻
-                  </div>
-                </div>
-                <h3 className='text-dev-brown font-mono text-lg mb-1'>
-                  Sarah Chen
-                </h3>
-                <p className='text-dev-medium-gray mb-3 font-mono text-sm'>
-                  Content Director
-                </p>
-                <p className='text-dev-dark-gray text-center'>
-                  Former tech educator with a knack for breaking down complex
-                  concepts into manageable learning chunks.
-                </p>
-              </div>
-
-              {/* Team Member 3 */}
+            <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8'>
               <div className='flex flex-col items-center'>
                 <div className='w-32 h-32 bg-dev-light-gray border-2 border-dev-dark-gray mb-4 overflow-hidden'>
                   <div className='w-full h-full flex items-center justify-center text-dev-medium-gray text-5xl'>
@@ -320,14 +278,16 @@ export default function About() {
                   </div>
                 </div>
                 <h3 className='text-dev-brown font-mono text-lg mb-1'>
-                  Miguel Rodriguez
+                  Achraf EL GHAZI
                 </h3>
                 <p className='text-dev-medium-gray mb-3 font-mono text-sm'>
-                  UX Designer & Developer
+                  Software Engineer & Educator
                 </p>
-                <p className='text-dev-dark-gray text-center'>
-                  Specializes in creating intuitive, accessible interfaces with
-                  a focus on the learning experience.
+                <p className='text-dev-dark-gray text-center text-sm'>
+                  Passionate about making web development accessible for all,
+                  Achraf blends modern tech with clear, structured guidance.
+                  He’s the mind behind DevLore’s learning flow and design
+                  philosophy.
                 </p>
               </div>
             </div>
@@ -423,7 +383,7 @@ export default function About() {
         </section>
       </main>
 
-     <Footer />
+      <Footer />
     </div>
   );
 }
