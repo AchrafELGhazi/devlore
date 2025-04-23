@@ -30,8 +30,8 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Next.js-14-black" alt="Next.js 14">
-  <img src="https://img.shields.io/badge/Tailwind-4.0-38bdf8" alt="Tailwind CSS 4.0">
+  <img src="https://img.shields.io/badge/Next.js-14-black" alt="Next.js 15">
+  <img src="https://img.shields.io/badge/Tailwind-4.0-38bdf8" alt="Tailwind CSS 4.1">
   <img src="https://img.shields.io/badge/TypeScript-5.3-3178c6" alt="TypeScript 5.3">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License">
 </div>
