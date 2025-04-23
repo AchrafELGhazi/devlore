@@ -107,7 +107,7 @@ const Header = () => {
             <ul className='flex flex-col space-y-3'>
               <li>
                 <Link
-                  href='#about'
+                  href='/about'
                   className='block text-dev-dark-gray font-medium py-3 px-4 border-l-4 border-transparent hover:border-dev-yellow hover:bg-dev-light-gray hover:text-dev-brown transition-all duration-200'
                   onClick={toggleMobileMenu}
                 >
