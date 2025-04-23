@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -6,11 +7,13 @@ const Footer = () => {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-center mb-8'>
           <Link href='/' className='flex items-center'>
-            <div className='w-10 h-10 mr-2'>
-              <img
+            <div className='w-10 h-10 mr-2 relative'>
+              <Image
                 src='/images/logo.svg'
                 alt='DevLore Logo'
-                className='w-full h-full object-cover'
+                fill
+                sizes='(max-width: 768px) 40px, 40px'
+                style={{ objectFit: 'cover' }}
               />
             </div>
             <span className='text-dev-dark-gray font-bold font-mono text-xl'>
@@ -65,7 +68,6 @@ const Footer = () => {
               Community
             </h4>
             <ul className='space-y-2'>
-            
               <li>
                 <Link
                   href='https://github.com/AchrafELGhazi'
@@ -75,7 +77,7 @@ const Footer = () => {
                   GitHub
                 </Link>
               </li>
-              
+
               <li>
                 <Link
                   href='https://github.com/AchrafELGhazi/devlore'

@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,11 +14,13 @@ const Header = () => {
     <header className='sticky top-0 z-50 bg-dev-white border-b-2 border-dev-yellow shadow-sm'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center'>
         <Link href='/' className='flex items-center'>
-          <div className='w-10 h-10 mr-2'>
-            <img
+          <div className='w-10 h-10 mr-2 relative'>
+            <Image
               src='/images/logo.svg'
               alt='DevLore Logo'
-              className='w-full h-full object-cover'
+              fill
+              sizes='(max-width: 768px) 40px, 40px'
+              style={{ objectFit: 'cover' }}
             />
           </div>
           <span className='text-dev-dark-gray font-bold font-mono text-xl'>

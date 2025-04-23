@@ -33,7 +33,7 @@ export default function NotFound() {
               <div className='ml-4'>
                 <span className='text-dev-yellow'>{'<suggestion>'}</span>
                 <span className='text-dev-white'>
-                  Let's get you back on track.
+                  Let&apos;s get you back on track.
                 </span>
                 <span className='text-dev-yellow'>{'</suggestion>'}</span>
               </div>
@@ -42,7 +42,8 @@ export default function NotFound() {
           </div>
 
           <p className='text-dev-dark-gray text-lg mb-8'>
-            The page you're looking for doesn't exist or has been moved.
+            The page you&apos;re looking for doesn&apos;t exist or has been
+            moved.
           </p>
 
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>

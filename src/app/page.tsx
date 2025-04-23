@@ -1,6 +1,5 @@
 import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -116,7 +115,7 @@ export default function Home() {
                 </h3>
                 <p className='text-dev-dark-gray'>
                   Follow a carefully designed learning path that builds
-                  complexity gradually, ensuring you're never overwhelmed.
+                  complexity gradually, ensuring you&apos;re never overwhelmed.
                 </p>
               </div>
 
@@ -269,7 +268,8 @@ export default function Home() {
                   Search Functionality
                 </h3>
                 <p className='text-dev-dark-gray'>
-                  Quickly find the topics and concepts you're interested in.
+                  Quickly find the topics and concepts you&apos;re interested
+                  in.
                 </p>
               </div>
 
