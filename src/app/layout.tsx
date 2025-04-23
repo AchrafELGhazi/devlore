@@ -9,7 +9,9 @@ export const metadata: Metadata = {
   description:
     'A complete guide to web development from HTML to React and Node.js',
   icons: {
-    icon: '/DL.png',
+    icon: [
+      { url: '/logo-dl.png', type: 'image/png' },
+    ],
   },
 };
 
