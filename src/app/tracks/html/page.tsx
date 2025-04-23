@@ -4,69 +4,14 @@ export default function Html() {
   return (
     <div className='min-h-screen bg-dev-white text-dev-off-black flex flex-col items-center justify-center p-4'>
       <div className='max-w-2xl w-full'>
-        {/* Logo */}
         <div className='flex justify-center mb-12'>
           <div className='flex items-center'>
             <div className='w-16 h-16 mr-3'>
-              <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
-                {/* Background Square */}
-                <rect
-                  x='10'
-                  y='10'
-                  width='180'
-                  height='180'
-                  fill='#EEEEEE'
-                  stroke='#8A6534'
-                  strokeWidth='4'
-                />
-
-                {/* Logo Text */}
-                <g fontFamily='monospace' fontWeight='bold' letterSpacing='-2'>
-                  {/* Dev Text */}
-                  <text x='34' y='110' fontSize='42' fill='#444444'>
-                    Dev
-                  </text>
-
-                  {/* Lore Text */}
-                  <text x='100' y='110' fontSize='42' fill='#8A6534'>
-                    Lore
-                  </text>
-                </g>
-
-                {/* Decorative Code Elements */}
-                <g stroke='#8A6534' strokeWidth='2' fill='none'>
-                  {/* HTML Tag */}
-                  <path d='M30,40 L45,50 L30,60' />
-                  <path d='M60,40 L45,50 L60,60' />
-
-                  {/* Curly Brace */}
-                  <path d='M140,40 C145,40 150,43 150,48 C150,53 145,55 140,55 C145,55 150,57 150,62 C150,67 145,70 140,70' />
-
-                  {/* Semicolon */}
-                  <circle cx='165' cy='50' r='3' fill='#8A6534' />
-                  <circle cx='165' cy='62' r='3' fill='#8A6534' />
-                </g>
-
-                {/* Bottom Code Line */}
-                <line
-                  x1='30'
-                  y1='140'
-                  x2='170'
-                  y2='140'
-                  stroke='#8A6534'
-                  strokeWidth='2'
-                  strokeDasharray='5,5'
-                />
-                <line
-                  x1='30'
-                  y1='160'
-                  x2='120'
-                  y2='160'
-                  stroke='#8A6534'
-                  strokeWidth='2'
-                  strokeDasharray='5,5'
-                />
-              </svg>
+              <img
+                src='/images/logo.svg'
+                alt='DevLore Logo'
+                className='w-full h-full object-cover'
+              />
             </div>
             <span className='text-dev-dark-gray font-bold font-mono text-3xl'>
               Dev<span className='text-dev-brown'>Lore</span>
@@ -74,7 +19,6 @@ export default function Html() {
           </div>
         </div>
 
-        {/* Coming Soon Content */}
         <div className='bg-dev-off-white border-2 border-dev-dark-gray p-8 sm:p-12 text-center mb-8 shadow-[6px_6px_0_#8A6534]'>
           <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold font-mono text-dev-dark-gray mb-6'>
             Coming Soon
@@ -107,7 +51,6 @@ export default function Html() {
             Stay tuned for the launch!
           </p>
 
-          {/* Email Subscription */}
           <div className='mb-8'>
             <h3 className='text-dev-brown font-mono text-lg mb-4'>
               Get Notified When We Launch
@@ -124,7 +67,6 @@ export default function Html() {
             </div>
           </div>
 
-          {/* Progress Indicator */}
           <div className='mb-6'>
             <div className='flex justify-between text-dev-dark-gray font-mono text-sm mb-2'>
               <span>Development Progress</span>
@@ -143,7 +85,6 @@ export default function Html() {
           </p>
         </div>
 
-        {/* Social Links */}
         <div className='flex justify-center gap-4 mb-8'>
           <Link
             href='#'

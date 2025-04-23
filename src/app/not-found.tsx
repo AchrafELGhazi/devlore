@@ -6,52 +6,6 @@ export default function NotFound() {
       <div className='max-w-2xl w-full'>
         <div className='flex justify-center mb-8'>
           <Link href='/' className='flex items-center'>
-            <div className='w-14 h-14 mr-3'>
-              <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
-                <rect
-                  x='10'
-                  y='10'
-                  width='180'
-                  height='180'
-                  fill='#EEEEEE'
-                  stroke='#8A6534'
-                  strokeWidth='4'
-                />
-                <g fontFamily='monospace' fontWeight='bold' letterSpacing='-2'>
-                  <text x='34' y='110' fontSize='42' fill='#444444'>
-                    Dev
-                  </text>
-                  <text x='100' y='110' fontSize='42' fill='#8A6534'>
-                    Lore
-                  </text>
-                </g>
-                <g stroke='#8A6534' strokeWidth='2' fill='none'>
-                  <path d='M30,40 L45,50 L30,60' />
-                  <path d='M60,40 L45,50 L60,60' />
-                  <path d='M140,40 C145,40 150,43 150,48 C150,53 145,55 140,55 C145,55 150,57 150,62 C150,67 145,70 140,70' />
-                  <circle cx='165' cy='50' r='3' fill='#8A6534' />
-                  <circle cx='165' cy='62' r='3' fill='#8A6534' />
-                </g>
-                <line
-                  x1='30'
-                  y1='140'
-                  x2='170'
-                  y2='140'
-                  stroke='#8A6534'
-                  strokeWidth='2'
-                  strokeDasharray='5,5'
-                />
-                <line
-                  x1='30'
-                  y1='160'
-                  x2='120'
-                  y2='160'
-                  stroke='#8A6534'
-                  strokeWidth='2'
-                  strokeDasharray='5,5'
-                />
-              </svg>
-            </div>
             <span className='text-dev-dark-gray font-bold font-mono text-xl'>
               Dev<span className='text-dev-brown'>Lore</span>
             </span>
@@ -106,8 +60,6 @@ export default function NotFound() {
             </Link>
           </div>
         </div>
-
-   
       </div>
     </div>
   );
