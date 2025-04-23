@@ -1,4 +1,4 @@
-# <img src="public/logo.svg" width="30" alt="DevLore Logo"> DevLore
+# <img src="public/images/logo.svg" width="30" alt="DevLore Logo"> DevLore
 
 <p align="center">
   <img src="public/devlore-banner.png" alt="DevLore Banner" width="600">
