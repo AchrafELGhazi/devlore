@@ -1,12 +1,8 @@
 import Link from 'next/link';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 
 export default function PrivacyPolicy() {
   return (
     <div className='min-h-screen bg-dev-white text-dev-off-black flex flex-col'>
-      <Header />
-
       <main className='flex-grow py-16'>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='mb-8 text-center'>
@@ -209,8 +205,6 @@ export default function PrivacyPolicy() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

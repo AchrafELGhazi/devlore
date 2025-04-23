@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className='min-h-screen bg-dev-white text-dev-off-black flex flex-col'>
-      <Header />
 
       <main className='flex-grow'>
         <section className='min-h-[80vh] flex items-center bg-dev-off-white'>
@@ -323,7 +322,6 @@ export default function Home() {
         </section>
       </main>
 
-      <Footer />
     </div>
   );
 }
