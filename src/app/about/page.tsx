@@ -263,14 +263,13 @@ export default function About() {
           </div>
         </section>
 
-        {/* Team Section */}
         <section className='py-16 bg-dev-white'>
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
             <h2 className='text-3xl font-mono text-dev-brown mb-12 text-center'>
               Meet Our Team
             </h2>
 
-            <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8'>
               <div className='flex flex-col items-center'>
                 <div className='w-32 h-32 bg-dev-light-gray border-2 border-dev-dark-gray mb-4 overflow-hidden'>
                   <div className='w-full h-full flex items-center justify-center text-dev-medium-gray text-5xl'>
