@@ -139,7 +139,7 @@ export default function React() {
           </div>
 
           <p className='text-dev-medium-gray text-sm'>
-            Expected launch: May 2025
+            Expected launch: June 2025
           </p>
         </div>
 
