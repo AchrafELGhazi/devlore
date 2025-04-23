@@ -111,7 +111,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href='#'
+                  href='privacy-policy'
                   className='text-dev-dark-gray hover:text-dev-brown hover:underline'
                 >
                   Privacy Policy
@@ -119,7 +119,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href='#'
+                  href='/terms'
                   className='text-dev-dark-gray hover:text-dev-brown hover:underline'
                 >
                   Terms of Service
