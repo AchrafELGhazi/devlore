@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     icon: [
       { url: '/logo-dl.png', type: 'image/png' },
       { url: '/favicon.ico', type: 'image/x-icon' },
+
     ],
   },
 };
