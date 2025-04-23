@@ -80,12 +80,12 @@ export default function ComingSoon() {
                 <br />
                 {'  '}
                 <span className='html-tag'>{'<h1>'}</span>
-                We're building something awesome!
+                {"We're building something awesome!"}
                 <span className='html-tag'>{'</h1>'}</span>
                 <br />
                 {'  '}
                 <span className='html-tag'>{'<p>'}</span>
-                Your web development journey begins soon.
+                {'Your web development journey begins soon.'}
                 <span className='html-tag'>{'</p>'}</span>
                 <br />
                 <span className='html-tag'>{'</div>'}</span>
