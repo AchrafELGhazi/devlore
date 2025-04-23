@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'DevLore | Web Development Journey',
   description:
     'A complete guide to web development from HTML to React and Node.js',
+  icons: {
+    icon: '/DL.png',
+  },
 };
 
 export default function RootLayout({

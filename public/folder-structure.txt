@@ -1,0 +1,60 @@
+DEVLORE/
+├── public/                    # Static files
+│   ├── images/                # Image assets
+│   │   └── logo.svg           # DevLore logo
+│   └── favicon.ico            # Site favicon
+│
+├── src/                       # Source code
+│   ├── app/                   # App Router pages
+│   │   ├── layout.tsx         # Root layout (applies to all routes)
+│   │   ├── page.tsx           # Home page (/)
+│   │   ├── globals.css        # Global styles
+│   │   ├── tracks/            # Learning tracks section
+│   │   │   ├── layout.tsx     # Tracks layout
+│   │   │   ├── page.tsx       # Tracks index page (/tracks)
+│   │   │   ├── html/          # HTML track
+│   │   │   │   └── page.tsx   # HTML track page (/tracks/html)
+│   │   │   ├── css/           # CSS track
+│   │   │   │   └── page.tsx   # CSS track page (/tracks/css)
+│   │   │   ├── javascript/    # JavaScript track
+│   │   │   │   └── page.tsx   # JavaScript track page (/tracks/javascript)
+│   │   │   ├── react/         # React track
+│   │   │   │   └── page.tsx   # React track page (/tracks/react)
+│   │   │   └── nodejs/        # Node.js track
+│   │   │       └── page.tsx   # Node.js track page (/tracks/nodejs)
+│   │   └── about/             # About page
+│   │       └── page.tsx       # About page (/about)
+│   │
+│   ├── components/            # Reusable UI components
+│   │   ├── ui/                # Basic UI components
+│   │   │   ├── Button.tsx     # Button component
+│   │   │   ├── Card.tsx       # Card component
+│   │   │   └── Logo.tsx       # Logo component
+│   │   ├── layout/            # Layout components
+│   │   │   ├── Header.tsx     # Header component
+│   │   │   ├── Footer.tsx     # Footer component
+│   │   │   └── Navigation.tsx # Navigation component
+│   │   └── sections/          # Section components for landing page
+│   │       ├── Hero.tsx       # Hero section
+│   │       ├── Features.tsx   # Features section
+│   │       ├── TracksList.tsx # Tracks list section
+│   │       └── CTA.tsx        # Call to action section
+│   │
+│   ├── lib/                   # Utility functions and shared logic
+│   │   └── utils.ts           # General utility functions
+│   │
+│   ├── hooks/                 # Custom React hooks
+│   │
+│   ├── types/                 # TypeScript type definitions
+│   │   └── index.ts           # Common type definitions
+│   │
+│   └── styles/                # Component-specific styles
+│       └── theme.ts           # Theme variables
+│
+├── .gitignore                 # Git ignore file
+├── .eslintrc.json             # ESLint configuration
+├── next.config.mjs            # Next.js configuration
+├── package.json               # Project dependencies and scripts
+├── postcss.config.js          # PostCSS configuration for Tailwind
+├── tailwind.config.ts         # Tailwind CSS configuration
+└── tsconfig.json              # TypeScript configuration

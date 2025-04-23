@@ -1,16 +1,13 @@
-// src/app/coming-soon/page.tsx
 import Link from 'next/link';
 
 export default function ComingSoon() {
   return (
     <div className='min-h-screen bg-dev-white text-dev-off-black flex flex-col items-center justify-center p-4'>
       <div className='max-w-2xl w-full'>
-        {/* Logo */}
         <div className='flex justify-center mb-12'>
           <div className='flex items-center'>
             <div className='w-16 h-16 mr-3'>
               <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
-                {/* Background Square */}
                 <rect
                   x='10'
                   y='10'
@@ -21,22 +18,17 @@ export default function ComingSoon() {
                   strokeWidth='4'
                 />
 
-                {/* Logo Text */}
                 <g fontFamily='monospace' fontWeight='bold' letterSpacing='-2'>
-                  {/* Dev Text */}
                   <text x='34' y='110' fontSize='42' fill='#444444'>
                     Dev
                   </text>
 
-                  {/* Lore Text */}
                   <text x='100' y='110' fontSize='42' fill='#8A6534'>
                     Lore
                   </text>
                 </g>
 
-                {/* Decorative Code Elements */}
                 <g stroke='#8A6534' strokeWidth='2' fill='none'>
-                  {/* HTML Tag */}
                   <path d='M30,40 L45,50 L30,60' />
                   <path d='M60,40 L45,50 L60,60' />
 
