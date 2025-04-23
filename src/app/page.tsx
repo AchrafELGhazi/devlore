@@ -1,11 +1,8 @@
-import Footer from '@/components/layout/Footer';
-import Header from '@/components/layout/Header';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className='min-h-screen bg-dev-white text-dev-off-black flex flex-col'>
-
       <main className='flex-grow'>
         <section className='min-h-[80vh] flex items-center bg-dev-off-white'>
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col lg:flex-row gap-16'>
@@ -321,7 +318,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
     </div>
   );
 }
