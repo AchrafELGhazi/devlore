@@ -6,13 +6,6 @@ export default function Html() {
       <div className='max-w-2xl w-full'>
         <div className='flex justify-center mb-12'>
           <div className='flex items-center'>
-            <div className='w-16 h-16 mr-3'>
-              <img
-                src='/images/logo.svg'
-                alt='DevLore Logo'
-                className='w-full h-full object-cover'
-              />
-            </div>
             <span className='text-dev-dark-gray font-bold font-mono text-3xl'>
               Dev<span className='text-dev-brown'>Lore</span>
             </span>
@@ -31,12 +24,12 @@ export default function Html() {
                 <br />
                 {'  '}
                 <span className='html-tag'>{'<h1>'}</span>
-                We're building something awesome!
+                {"We're building something awesome!"}
                 <span className='html-tag'>{'</h1>'}</span>
                 <br />
                 {'  '}
                 <span className='html-tag'>{'<p>'}</span>
-                Your web development journey begins soon.
+                {'Your web development journey begins soon.'}
                 <span className='html-tag'>{'</p>'}</span>
                 <br />
                 <span className='html-tag'>{'</div>'}</span>
@@ -45,10 +38,11 @@ export default function Html() {
           </div>
 
           <p className='text-dev-dark-gray text-lg mb-8'>
-            We're crafting a comprehensive learning platform for web
-            development.
+            {
+              "We're crafting a comprehensive learning platform for web development."
+            }
             <br />
-            Stay tuned for the launch!
+            {'Stay tuned for the launch!'}
           </p>
 
           <div className='mb-8'>
@@ -70,12 +64,12 @@ export default function Html() {
           <div className='mb-6'>
             <div className='flex justify-between text-dev-dark-gray font-mono text-sm mb-2'>
               <span>Development Progress</span>
-              <span>73%</span>
+              <span>20%</span>
             </div>
             <div className='w-full h-4 bg-dev-light-gray border-2 border-dev-dark-gray'>
               <div
                 className='h-full bg-dev-yellow'
-                style={{ width: '73%' }}
+                style={{ width: '20%' }}
               ></div>
             </div>
           </div>
@@ -87,7 +81,8 @@ export default function Html() {
 
         <div className='flex justify-center gap-4 mb-8'>
           <Link
-            href='#'
+            href='https://www.linkedin.com/in/achraf-el-ghazi-16b8bb2a7/'
+            target='_blank'
             className='bg-dev-light-gray p-3 border-2 border-dev-dark-gray hover:bg-dev-yellow transition-colors duration-300'
           >
             <svg
@@ -106,26 +101,10 @@ export default function Html() {
               <circle cx='4' cy='4' r='2'></circle>
             </svg>
           </Link>
+
           <Link
-            href='#'
-            className='bg-dev-light-gray p-3 border-2 border-dev-dark-gray hover:bg-dev-yellow transition-colors duration-300'
-          >
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              strokeWidth='2'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-            >
-              <path d='M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z'></path>
-            </svg>
-          </Link>
-          <Link
-            href='#'
+            href='https://github.com/AchrafELGhazi'
+            target='_blank'
             className='bg-dev-light-gray p-3 border-2 border-dev-dark-gray hover:bg-dev-yellow transition-colors duration-300'
           >
             <svg
@@ -140,24 +119,6 @@ export default function Html() {
               strokeLinejoin='round'
             >
               <path d='M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22'></path>
-            </svg>
-          </Link>
-          <Link
-            href='#'
-            className='bg-dev-light-gray p-3 border-2 border-dev-dark-gray hover:bg-dev-yellow transition-colors duration-300'
-          >
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              strokeWidth='2'
-              strokeLinecap='round'
-              strokeLinejoin='round'
-            >
-              <path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'></path>
             </svg>
           </Link>
         </div>
