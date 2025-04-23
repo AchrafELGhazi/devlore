@@ -92,14 +92,14 @@ npm install
 # Start the development server
 npm run dev
 ```
-
+/**
 ## 🖼️ Screenshots
 
 <div align="center">
   <img src="public/screenshots/devlore-tracks.png" alt="Learning Tracks" width="400">
   <img src="public/screenshots/devlore-lesson.png" alt="Lesson Example" width="400">
 </div>
-
+**/
 ## 🤝 Contributing
 
 Contributions are welcome! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
