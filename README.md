@@ -1,7 +1,7 @@
 # <img src="public/images/logo.svg" width="30" alt="DevLore Logo"> DevLore
 
 <p align="center">
-  <img src="public/devlore-banner.png" alt="DevLore Banner" width="600">
+  <img src="public/images/devlore-banner.png" alt="DevLore Banner" width="600">
 </p>
 
 <div align="center">
