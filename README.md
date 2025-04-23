@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <img src="public/images/logo.svg" width="30" alt="DevLore Logo"> DevLore
 
-## Getting Started
+<p align="center">
+  <img src="public/images/devlore-banner.svg" alt="DevLore Banner" width="600">
+</p>
 
-First, run the development server:
+<div align="center">
+  <strong>A complete journey through modern web development</strong><br>
+  From HTML basics to advanced React and Node.js
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://devlore.app">
+      Website
+    </a>
+    <span> | </span>
+    <a href="https://devlore.app/tracks">
+      Learning Tracks
+    </a>
+    <span> | </span>
+    <a href="https://devlore.app/about">
+      About
+    </a>
+    <span> | </span>
+    <a href="https://github.com/yourusername/devlore/issues">
+      Issues
+    </a>
+  </h3>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-14-black" alt="Next.js 14">
+  <img src="https://img.shields.io/badge/Tailwind-4.0-38bdf8" alt="Tailwind CSS 4.0">
+  <img src="https://img.shields.io/badge/TypeScript-5.3-3178c6" alt="TypeScript 5.3">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT License">
+</div>
+
+<br>
+
+## 🚀 Overview
+
+DevLore is a comprehensive web development learning platform built to guide developers from the basics of HTML, CSS, and JavaScript to advanced concepts in React, Node.js, and modern web development practices.
+
+With a retro-inspired design and structured learning paths, DevLore provides an engaging environment to master the art of web development.
+
+<div align="center">
+  <img src="public/screenshots/devlore-preview.png" alt="DevLore Preview" width="800">
+</div>
+
+## ✨ Features
+
+- 📚 **Structured Learning Tracks** - Follow carefully designed paths from fundamentals to advanced concepts
+- 💻 **Interactive Code Examples** - Try out code directly in your browser
+- 📝 **Practical Projects** - Build your portfolio with real-world projects
+- 🔍 **Searchable Content** - Quickly find the topics you're interested in
+- 📱 **Responsive Design** - Learn on any device with a fully responsive interface
+- 🌙 **Light/Dark Mode** - Choose your preferred theme for comfortable learning
+
+## 📋 Learning Tracks
+
+DevLore offers multiple learning tracks to guide you through the world of web development:
+
+- **HTML Fundamentals** - Structure, semantics, and the backbone of the web
+- **CSS & Design** - Styling, layouts, and visual enhancement
+- **JavaScript** - Interactivity, DOM manipulation, and modern ES6+
+- **React Framework** - Components, state management, and modern UI development
+- **Node.js & Express** - Server-side JavaScript, APIs, and backend development
+- **Databases** - SQL, NoSQL, and data management strategies
+
+## 🛠️ Tech Stack
+
+DevLore is built with modern web technologies:
+
+- **[Next.js](https://nextjs.org/)** - React framework for server-rendered applications
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[MDX](https://mdxjs.com/)** - Markdown with JSX for interactive content
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/devlore.git
+
+# Navigate to the directory
+cd devlore
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖼️ Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div align="center">
+  <img src="public/screenshots/devlore-tracks.png" alt="Learning Tracks" width="400">
+  <img src="public/screenshots/devlore-lesson.png" alt="Lesson Example" width="400">
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+Contributions are welcome! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 License
 
-## Deploy on Vercel
+DevLore is open source software [licensed as MIT](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙏 Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Special thanks to all contributors who have helped shape DevLore
+- Inspired by platforms like MDN Web Docs, freeCodeCamp, and The Odin Project
+- Logo and design elements created with a retro aesthetic inspired by Claude.ai
+
+---
+
+<div align="center">
+  <p>Built with ❤️ by the DevLore team</p>
+  <p>
+    <a href="https://twitter.com/devloreapp">Twitter</a> •
+    <a href="https://discord.gg/devlore">Discord</a> •
+    <a href="https://github.com/yourusername/devlore">GitHub</a>
+  </p>
+</div>
