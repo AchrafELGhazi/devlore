@@ -81,7 +81,7 @@ DevLore is built with modern web technologies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/devlore.git
+git clone https://github.com/AchrafELGhazi/devlore.git
 
 # Navigate to the directory
 cd devlore
