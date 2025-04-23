@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background Square -->
-  <rect x="10" y="10" width="180" height="180" fill="#222222" stroke="#FED792" stroke-width="4"/>
+  <rect x="10" y="10" width="180" height="180" fill="#EEEEEE" stroke="#8A6534" stroke-width="4"/>
   
   <!-- Logo Text -->
   <g font-family="monospace" font-weight="bold" letter-spacing="-2">
     <!-- Dev Text -->
-    <text x="34" y="110" font-size="42" fill="#FFFFFF">Dev</text>
+    <text x="34" y="110" font-size="42" fill="#444444">Dev</text>
     
     <!-- Lore Text -->
-    <text x="100" y="110" font-size="42" fill="#FED792">Lore</text>
+    <text x="100" y="110" font-size="42" fill="#8A6534">Lore</text>
   </g>
   
   <!-- Decorative Code Elements -->
