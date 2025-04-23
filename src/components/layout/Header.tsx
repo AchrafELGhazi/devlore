@@ -32,7 +32,7 @@ const Header = () => {
           <ul className='flex gap-8'>
             <li>
               <Link
-                href='#about'
+                href='/about'
                 className='text-dev-dark-gray font-medium py-2 px-4 border-2 border-transparent hover:text-dev-brown hover:border-dev-yellow transition-colors duration-300'
               >
                 About
