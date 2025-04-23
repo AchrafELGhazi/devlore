@@ -135,7 +135,6 @@ export default function About() {
       </header>
 
       <main className='flex-grow'>
-        {/* Hero Section */}
         <section className='bg-dev-off-white py-16'>
           <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
             <div className='max-w-3xl mx-auto text-center'>
@@ -280,7 +279,7 @@ export default function About() {
                   Achraf EL GHAZI
                 </h3>
                 <p className='text-dev-medium-gray mb-3 font-mono text-sm'>
-                  Software Engineer & Educator
+                  Software Engineer
                 </p>
                 <p className='text-dev-dark-gray text-center text-sm'>
                   Passionate about making web development accessible for all,
@@ -293,7 +292,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* Contact Section */}
         <section
           id='contact'
           className='py-16 bg-dev-yellow border-t-2 border-b-2 border-dev-brown'
