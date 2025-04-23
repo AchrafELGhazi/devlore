@@ -115,20 +115,3 @@ Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 ## 📝 License
 
 DevLore is open source software [licensed as MIT](LICENSE).
-
-## 🙏 Acknowledgments
-
-- Special thanks to all contributors who have helped shape DevLore
-- Inspired by platforms like MDN Web Docs, freeCodeCamp, and The Odin Project
-- Logo and design elements created with a retro aesthetic inspired by Claude.ai
-
----
-
-<div align="center">
-  <p>Built with ❤️ by the DevLore team</p>
-  <p>
-    <a href="https://twitter.com/devloreapp">Twitter</a> •
-    <a href="https://discord.gg/devlore">Discord</a> •
-    <a href="https://github.com/yourusername/devlore">GitHub</a>
-  </p>
-</div>
